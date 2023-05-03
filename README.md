@@ -1,7 +1,7 @@
 # Pure-react-login-public-private-page
 
 
-## Package install 
+## 1. Package install 
 
 ```
 npx create-react-app .
@@ -9,7 +9,7 @@ npx create-react-app .
 npm i react-router-dom 
 
 ```
-## Main Component Structure
+## 2. Main Component Structure
 
 ```
 src/index.js
@@ -33,7 +33,7 @@ src/routes/publicRouter.js
 
 ```
 
-## Main Service ที่ใช้เกี่ยวเนื่องกัน
+## 3. Main Service ที่ใช้เกี่ยวเนื่องกัน
 
 src/index.js
 ```
@@ -105,4 +105,11 @@ import RegisterPage from '../pages/RegisterPage';
 ```
 
 
+## 4. Work flow diagram
+## 5. Setup Design 
 
+
+## 6. Setup Logic
+
+
+## 7. Test 
