@@ -19,11 +19,11 @@ src/app/App.js
 src/contexts/AuthContext.jsx
 src/hooks/userAuth.js
 
-src/pages/DashBoardPage.jsx
 src/pages/HomePage.jsx
 src/pages/LoginPage.jsx
-src/pages/ProfilePage.jsx
 src/pages/RegisterPage.jsx
+src/pages/DashBoardPage.jsx
+src/pages/ProfilePage.jsx
 
 src/routes/router.jsx
 src/routes/privateRouter.js
@@ -72,15 +72,23 @@ import { useState } from 'react';
 import { useAuth } from '../hooks/useAuth';
 import { Link } from 'react-router-dom';
 ```
+
+src/pages/RegisterPage.jsx
+```
+import { Link } from 'react-router-dom';
+```
+src/pages/DashBoardPage.jsx
+```
+import React from 'react';
+import TodoContextProvider from '../contexts/TodoContext';
+```
+
 src/pages/ProfilePage.jsx
 ```
 import React from 'react';
 import TodoContextProvider from '../contexts/TodoContext';
 ```
-src/pages/RegisterPage.jsx
-```
-import { Link } from 'react-router-dom';
-```
+
 src/routes/router.jsx
 
 ```
@@ -107,6 +115,15 @@ import RegisterPage from '../pages/RegisterPage';
 
 ## 4. Work flow diagram
 ## 5. Setup Design 
+```
+
+src/pages/HomePage.jsx
+src/pages/LoginPage.jsx
+src/pages/RegisterPage.jsx
+src/pages/DashBoardPage.jsx
+src/pages/ProfilePage.jsx
+
+```
 
 
 ## 6. Setup Logic
