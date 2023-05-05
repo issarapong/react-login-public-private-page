@@ -14,7 +14,7 @@ npm i react-router-dom
 ```
 /src/index.js
 
-/src/app/App.js
+/src/app/App.jsx
 
 /src/contexts/AuthContext.jsx
 /src/hooks/userAuth.js
@@ -43,7 +43,7 @@ import './index.css';
 import App from './app/App';
 import AuthContextProvider from './contexts/AuthContext';
 ```
-### /src/app/App.js
+### /src/app/App.jsx
 
 ```
 import './App.scss';
@@ -113,10 +113,10 @@ import RegisterPage from '../pages/RegisterPage';
 ```
 
 
-## 4. Work flow diagram
-## 5. Setup Design 
-```
 
+## 4. Setup Design 
+```
+/src/app/App.css
 /src/pages/HomePage.jsx
 /src/pages/LoginPage.jsx
 /src/pages/RegisterPage.jsx
@@ -126,7 +126,7 @@ import RegisterPage from '../pages/RegisterPage';
 ```
 
 
-## 6. Setup Logic
-
+## 5. Setup Logic
+## 6. Work flow diagram
 
 ## 7. Test 
