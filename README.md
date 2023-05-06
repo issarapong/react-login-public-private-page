@@ -125,6 +125,8 @@ import RegisterPage from '../pages/RegisterPage';
 
 ```
 
+<a href="https://github.com/issarapong/react-login-public-private-page/tree/setup_design" >Setup Design branch </a>
+
 
 ## 5. Setup Logic
 ## 6. Work flow diagram
