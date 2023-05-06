@@ -1,5 +1,5 @@
 # Pure-react-login-public-private-page
-
+### For mini App (Advance App REdux)
 
 ## 1. Package install 
 
@@ -114,7 +114,7 @@ import RegisterPage from '../pages/RegisterPage';
 
 
 
-## 4. Setup Design 
+## 4. Setup Design .
 ```
 /src/app/App.css
 /src/pages/HomePage.jsx
