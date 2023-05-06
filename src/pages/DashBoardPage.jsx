@@ -2,7 +2,9 @@ import React from 'react'
 
 function DashBoardPage() {
   return (
-    <div>Welcome DashBoardPage, Now Private!!</div>
+    <div className='container'>
+    <div>Welcome DashBoardPage, Now Private!! 🐬  </div>
+    </div>
   )
 }
 
