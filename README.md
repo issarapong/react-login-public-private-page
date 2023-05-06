@@ -115,6 +115,7 @@ import RegisterPage from '../pages/RegisterPage';
 
 ## 4. Work flow diagram
 ## 5. Setup Design 
+ไฟลล์ที่จะต้องทำ design
 ```
 
 /src/pages/HomePage.jsx
