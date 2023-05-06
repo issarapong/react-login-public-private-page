@@ -1,13 +1,8 @@
 import '../app/App.css';
-
+import LoginPage from '../pages/LoginPage';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h3>Hello world</h3>
- 
-      </header>
-    </div>
+   <LoginPage />
   );
 }
 
