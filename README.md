@@ -125,9 +125,25 @@ import RegisterPage from '../pages/RegisterPage';
 /src/pages/ProfilePage.jsx
 
 ```
-
+<a href="https://github.com/issarapong/react-login-public-private-page/tree/setup_design">Setup Design branch </a>
 
 ## 6. Setup Logic
+
+### 6.1 Setup Router
+
+```
+/src/routes/router.jsx
+/src/routes/privateRouter.js
+/src/routes/publicRouter.js
+
+
+-----Controll----
+/src/pages/HomePage.jsx
+/src/pages/LoginPage.jsx
+/src/pages/RegisterPage.jsx
+/src/pages/DashBoardPage.jsx
+/src/pages/ProfilePage.jsx
+```
 
 
 ## 7. Test 
