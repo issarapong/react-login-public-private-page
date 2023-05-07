@@ -14,3 +14,24 @@
 .profile {
     color: blue;
 }
+
+.app-header{
+    display: flex;    
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+
+.logo {
+    margin: 10px;
+    padding-left: 20px;
+
+}
+
+ nav ul li{
+    padding : 0 5px 0 5x;
+    margin: 10px;
+    padding-right: 20px;
+    display: inline;
+
+    
+}

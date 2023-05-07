@@ -5,11 +5,13 @@ import RegisterPage from '../pages/RegisterPage'
 import HomePage from '../pages/HomePage'
 import ProfilePage from '../pages/ProfilePage'
 import DashBoardPage from '../pages/DashBoardPage';
+import Header from '../components/Header';
 
 function App() {
   return (
-   
+     
     <div className="App">
+      <Header />
       <Routes>
         <Route path="/" element={ <HomePage /> } />
         <Route path="login" element={ <LoginPage /> } />
