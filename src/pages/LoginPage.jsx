@@ -1,7 +1,9 @@
 import React from 'react'
-
+import Header from '../components/Header';
 function LoginPage() {
   return (
+    <>
+    <Header />
     <div className="container">
      <h3>Login</h3>
             <form>
@@ -10,6 +12,7 @@ function LoginPage() {
             <button type="submit" >Login</button>
         </form>
 </div>
+</>
 
     
 

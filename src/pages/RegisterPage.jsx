@@ -1,7 +1,9 @@
 import React from 'react'
-
+import Header from '../components/Header';
 function RegisterPage() {
-  return (
+  return ( 
+    <>
+    <Header />
     <div className="container">
     <h3>Register </h3>
            <form>
@@ -10,6 +12,7 @@ function RegisterPage() {
            <button type="submit" >Signup</button>
        </form>
 </div>
+</>
   )
 }
 

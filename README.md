@@ -131,6 +131,8 @@ import RegisterPage from '../pages/RegisterPage';
 
 ### 6.1 Setup Router
 
+Teacher recommend manage with Router provider
+
 ```
 /src/routes/router.jsx
 /src/routes/privateRouter.js
